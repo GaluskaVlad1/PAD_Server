@@ -1,10 +1,10 @@
 package pad.server.pad;
 
-public class Answer {
+public class LoginAnswer {
     private boolean loginSuccess;
     private boolean isAdmin;
 
-    public Answer(boolean loginSuccess, boolean isAdmin){
+    public LoginAnswer(boolean loginSuccess, boolean isAdmin){
         this.loginSuccess = loginSuccess;
         this.isAdmin = isAdmin;
     }
